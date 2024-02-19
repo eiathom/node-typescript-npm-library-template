@@ -29,8 +29,7 @@
   },
   "scripts": {
     "doc:generation": "rimraf docs && typedoc",
-    "lint": "eslint --ignore-path .eslintignore --ext .ts",
-    "lint:fix": "npm run lint --fix",
+    "lint:fix": "prettier --ignore-path .gitignore --write \"**/*.+(ts)\"",
     "prettier": "prettier --ignore-path .gitignore --write \"**/*.+(ts)\"",
     "build": "rimraf dist && node esbuild.js",
     "test": "jest --config jest.config.js"
