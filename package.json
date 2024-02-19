@@ -1,17 +1,17 @@
 {
-  "name": "telemetry-client-facade-pattern",
+  "name": "node-typescript-npm-library-template",
   "version": "0.1.0",
   "engines": {
     "node": ">=18.x <=22.x",
     "npm": ">=6.x"
   },
-  "description": "Pattern to effectively present a single API for library users while allowing many implementation",
-  "homepage": "https://github.com/eiathom/telemetry-client-facade-pattern",
+  "description": "Template for building Node TypeScript NPM libraries",
+  "homepage": "https://github.com/eiathom/node-typescript-npm-library-template",
   "bugs": {
-    "url": "https://github.com/eiathom/telemetry-client-facade-pattern/issues"
+    "url": "https://github.com/eiathom/node-typescript-npm-library-template/issues"
   },
   "repository": {
-    "url": "https://github.com/eiathom/telemetry-client-facade-pattern",
+    "url": "https://github.com/eiathom/node-typescript-npm-library-template",
     "type": "github"
   },
   "main": "dist/index.js",
@@ -38,8 +38,7 @@
   "keywords": [
     "node",
     "typescript",
-    "esbuild",
-    "telemetry"
+    "library"
   ],
   "author": "eiathom@protonmail.ch",
   "license": "MIT",
