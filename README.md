@@ -1,7 +1,6 @@
-# telemetry-client-facade-pattern
+# node-typescript-npm-library-template
 
-Pattern to effectively present a single API for library users while allowing
-many implementation.
+Template for building Node TypeScript NPM libraries.
 
 # Developing
 
